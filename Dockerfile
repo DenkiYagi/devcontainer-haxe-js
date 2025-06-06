@@ -54,4 +54,4 @@ RUN mkdir -p ~/.local/haxelib \
 RUN curl https://get.volta.sh | bash
 
 # Install Node.js and Yarn
-RUN ~/.volta/bin/volta install node@20 yarn@1
+RUN ~/.volta/bin/volta install node@20 yarn@1 pnpm@10

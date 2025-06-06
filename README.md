@@ -11,6 +11,7 @@ VSCode DevContainer向けのHaxe/JS開発環境Dockerコンテナです。
 - **volta**
 - **Node.js v20**
 - **Yarn v1**
+- **pnpm v10**
 - **日本語ロケール対応** (ja_JP.UTF-8)
 
 ## 使用方法

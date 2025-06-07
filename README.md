@@ -1,10 +1,10 @@
-# Haxe/JS Development Container
+# Haxe/JS development environment Docker image
 
-VSCode DevContainer向けのHaxe/JS開発環境Dockerコンテナです。
+VSCode DevContainer向けのHaxe/JS開発環境Dockerイメージです。
 
 ## 概要
 
-このDockerコンテナは [mcr.microsoft.com/devcontainers/base:ubuntu](https://github.com/devcontainers/images/tree/main/src/base-ubuntu) をベースに構築されており、以下が追加されています。
+このDockerイメージは [mcr.microsoft.com/devcontainers/base:ubuntu](https://github.com/devcontainers/images/tree/main/src/base-ubuntu) をベースに構築されており、以下が追加されています。
 
 - **Haxe 4.3.7**
 - **NekoVM 2.4.1**

@@ -6,8 +6,8 @@ VSCode DevContainer向けのHaxe/JS開発環境Dockerコンテナです。
 
 このDockerコンテナは [mcr.microsoft.com/devcontainers/base:ubuntu](https://github.com/devcontainers/images/tree/main/src/base-ubuntu) をベースに構築されており、以下が追加されています。
 
-- **Haxe 4.3.7** - クロスプラットフォーム開発言語
-- **NekoVM 2.4.1** - Haxeランタイム環境
+- **Haxe 4.3.7**
+- **NekoVM 2.4.1**
 - **volta**
 - **Node.js v20**
 - **Yarn v1**

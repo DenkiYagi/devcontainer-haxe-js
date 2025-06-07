@@ -1,6 +1,3 @@
-###########################################################
-# Haxe/JS Dev Container
-###########################################################
 FROM mcr.microsoft.com/devcontainers/base:ubuntu
 
 # Define versions

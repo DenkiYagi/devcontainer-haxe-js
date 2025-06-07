@@ -3,9 +3,12 @@
 ###########################################################
 FROM mcr.microsoft.com/devcontainers/base:ubuntu
 
-# Define Haxe and Neko version
+# Define versions
 ARG HAXE_VERSION=4.3.7
 ARG NEKO_VERSION=2.4.1
+ARG NODE_VERSION=20
+ARG YARN_VERSION=1
+ARG PNPM_VERSION=10
 
 # Use Japanese mirror sever for Ubuntu packages
 RUN sed -i.bak -r 's@http://(jp\.)?archive\.ubuntu\.com/ubuntu/?@https://ftp.udx.icscoe.jp/Linux/ubuntu/@g' /etc/apt/sources.list.d/ubuntu.sources
@@ -54,4 +57,4 @@ RUN mkdir -p ~/.local/haxelib \
 RUN curl https://get.volta.sh | bash
 
 # Install Node.js and Yarn
-RUN ~/.volta/bin/volta install node@20 yarn@1 pnpm@10
+RUN ~/.volta/bin/volta install node@${NODE_VERSION} yarn@${YARN_VERSION} pnpm@${PNPM_VERSION}

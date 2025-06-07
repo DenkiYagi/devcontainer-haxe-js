@@ -22,7 +22,8 @@ VSCode DevContainer向けのHaxe/JS開発環境Dockerコンテナです。
 ./build.sh
 ```
 
-Windowsの場合は、Git Bash等を使用して実行してください。
+* `.env` を編集するとビルド設定を変更できます。
+* Windowsの場合は、Git Bash等を使用して実行してください。
 
 ### 2. DevContainerの設定
 
